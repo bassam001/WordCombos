@@ -8,8 +8,7 @@ public interface ICombinationFinder
         ISet<string> words,
         int targetLength,
         int minParts = 2,
-        int? maxParts = null,
-        bool allowReuse = true);
+        int? maxParts = null);
 }
 
 //default parameter values in interfaces 
